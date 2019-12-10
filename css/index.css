@@ -70,9 +70,13 @@ nav{
     justify-content: space-evenly;
     word-spacing: 60px;
     margin: 6% auto 10%;
+    color: gray;
 }
 #logo{
     margin: -1% 0 0% 0;
+}
+a{
+    color: gray;
 }
 .tp{
     
@@ -98,4 +102,116 @@ button{
 .top{
     display: flex;
     justify-content: center;
+    margin: 4% auto;
+    width: 91%;
+}
+.middle-img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin: 3% auto;
+    width: 91%;
+    border-bottom: 2px solid gray;
+    padding: 0 0 4%;
+}
+address{
+    width: 31%;
+    padding: 4%;
+}
+.adr{
+    margin: 0% auto 7%;;
+}
+footer{
+    text-align: center;
+    margin: 0% auto 4%;
+}
+@media(max-width: 800px){
+    .container{
+    border: 2px solid black;
+    width: 100%;
+    margin: 0 auto
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        word-spacing: 60px;
+        margin: 1% auto 10%;
+        color: gray;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    nav div{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        margin: 0 auto;
+    }
+    #logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0% auto 4%;
+    }
+    .head{
+        width:37%
+    }
+    #code{
+        display: none;
+    }
+    .middle-img{
+        width: 95%;
+    }
+}
+@media(max-width: 500px){
+    nav div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #logo{
+        margin: 0% auto;
+        width: 89%;
+        padding: 4% 27%;
+        border-bottom: 2px solid gray;
+    }
+    a{
+        margin: 0% auto 0%;
+        border-bottom: 2px solid gray;
+        padding: 4% 39%;
+    }
+    .head{
+        width: 60%;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .feature{
+        margin:10% auto;
+    }
+    .about{
+        margin:10% auto;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .service{
+        margin:10% auto;
+    }
+    .product{
+        margin:10% auto;
+    }
+    .vision{
+        margin:10% auto;
+    }
+    address{
+        width:52%
+    }
+    footer{
+        margin: 0% auto 8%
+    }
 }
