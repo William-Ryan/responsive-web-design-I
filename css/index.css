@@ -110,6 +110,9 @@ button{
     margin: 4% auto;
     width: 91%;
 }
+.midimg{
+    width: 100%;
+}
 .middle-img{
     display: flex;
     justify-content: center;
